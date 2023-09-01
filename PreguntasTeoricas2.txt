@@ -1,0 +1,25 @@
+• ¿Qué pasa cuando se corre el comando “tsc”?
+
+El comando TSC sirve decirle a TypeScript que compile y cree las instrucciones necesarias para que el archivo pase a ser de tipo JavaScript con todas sus especificaciónes necesarias.
+
+
+• ¿Cómo está organizada una clase?
+
+Una clase esta organizada por la palabra reservada "clase", su respectivo nombre seguido de sus variables que pueden ser publicas, protegidas o privadas.
+Y el constructor que define el valor de las variables.
+
+
+• ¿Es correcto que un método auxiliar de una clase sea público? ¿Por qué?
+
+No, no es correcto ya que al ser público el metodo, un agente externo podría modificarlo haciendo que de resultados que no queremos o esperamos,
+por eso lo ideal sería que estos metodos sean privados o por lo menos protegidos.
+
+
+• Enumerar las características de una interfaz
+
+-Una interfaz son metodos abstractos y propiedades constantes
+-Una interfaz no puede tener constructor.
+-Una interface permite la encapsulación de los protocolos de los métodos sin forzar al usuario a utilizar la herencia.
+-Se puede implementar más de una interfaz.
+-Los metodos son públicos y abstractos en la interfaz.
+-Es compatible con multiples herencias.

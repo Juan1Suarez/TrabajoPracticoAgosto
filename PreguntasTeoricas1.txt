@@ -1,0 +1,29 @@
+• ¿Cuál es el beneficio de usar un lenguaje con tipos (Typescript)?
+
+Hay varios beneficios de utilizar un lenguaje con tipos como lo son:
+- Es un lenguaje que es más sencillo de leer y redactar.
+- Los errores que surgen pueden verse y correjirse antes de que se ejecute el código.
+- Tiene un tipado estatico.
+- Tiene más funcionalidades que JavaScript.
+
+
+• ¿A qué se le llama variable interna? ¿Por qué internas?
+
+Las variables internas son las variables que podemos definir como publicas, privadas, o protegidas, son internas porque estan dentro de una clase y dependiendo de como las definamos 
+podemos o no modificarlas fuera de esta misma clase, la publica puede ser modificada desde fuera, la protegida puede ser modificada por una clase hija o derivada y la privada solo 
+se puede modificar en la misma clase que la definimos.
+
+
+• Explicar la diferencia entre composición y herencia
+
+La herencia es una manera en la que las clases pueden heredar sus funciones a sus clases "hijas".
+Esto sirve para que de una clase más general y poco especifica pueda extenderse dejando todos sus metodos a otra clase sin la necesidad de escribir todo este código de vuelta,
+así logrando reutilizar este código eficientemente. 
+
+En cambio la composición es el agrupamiento de uno o varios objetos y valores, como atributos, que conforman el valor de los 
+distintos objetos de una clase, lo que significa que una clase crea un objeto de otra, usar la composición significa que agrupamos varios comportamientos en una clase.
+
+
+• Explicar el mecanismo que provee TypeScript para manejar casos en donde los parámetros que le llegan a un método son inválidos
+
+El mecanismo que nos da TypeScript es que es un tipo de lenguaje estatico, esto hace que podamos detectar los errores mientras compilamos y al ejecutar el código.
